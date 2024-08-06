@@ -1,0 +1,154 @@
+body{
+    background-color: #F7F7F5;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+
+.page-main{
+    width: 80vW;
+    height: min-content;
+    background-color: #FFF;
+    border-radius: 1.5rem;
+    border: #DEDEDE solid 0.1rem;
+    display: flex;
+    flex-direction: column;
+    margin-block: 5rem;
+}
+
+.page-logo-image{
+    height: 8rem;
+    width: 8rem;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    animation: bob 2s infinite;
+
+    @keyframes bob {
+        0% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-0.5rem);
+        }
+        100% {
+            transform: translateY(0);
+        }
+    }
+}
+
+.page-name{
+    color: #363636;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-left: 5rem;
+    margin-block: 0px;
+}
+
+.page-subtitle{
+    color: #595959;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 5rem;
+}
+
+.page-link-main{
+    background-color: #DEDEDE;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 0.5rem;
+    border-radius: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover{
+        transition-duration: 0.5s;
+        filter: invert(1);
+        scale: 1.1;
+    }
+}
+
+.page-link-img{
+    height: auto;
+    width: 1.25rem;
+    display: flex;
+}
+
+.page-link-containers{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    margin-left: 4.5rem;
+}
+
+.page-area-label{
+    color: #363636;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 6rem;
+    margin-top: 2rem;
+}
+
+.page-description{
+    border : #DEDEDE solid 0.1rem;
+    border-radius: 1rem;
+    margin-inline: 5rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.page-description-text{
+    color: #6B6B6B;
+    width: max-content;
+    margin-inline: 2rem;
+    margin-block: 1rem;
+}
+
+.project-main{
+    border : #DEDEDE solid 0.1rem;
+    border-radius: 1rem;
+    margin-inline: 5rem;
+    justify-content: start;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.project-banner-image{
+    width: 15vW;
+    height: auto;
+    margin: 1rem;
+}
+
+.project-innerlay{
+    height: max-content;
+    align-items: start;
+}
+
+.project-infolay{
+    height: max-content;
+    align-items: start;
+    margin-bottom: 10%;
+}
+
+.project-info-title{
+    color: #363636;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-left: 1rem;
+}
+
+.project-info-subtitle{
+    color: #6B6B6B;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 1rem;
+}
+
+.project-info-links{
+    display: flex;
+    flex-direction: row;
+}
